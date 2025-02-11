@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Boyd">
+    <title>Form Assignment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Registration Form</h2>
+        <form id="userForm">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <input type="number" id="age" placeholder="Age" required>
+            
+            <div class="radio-group">
+                <label>Gender:</label><br>
+                <input type="radio" name="gender" value="Male"> Male
+                <input type="radio" name="gender" value="Female"> Female
+                <input type="radio" name="gender" value="Other"> Other
+            </div>
+            
+            <select id="country">
+                <option value="USA">USA</option>
+                <option value="Canada">Canada</option>
+                <option value="UK">UK</option>
+                <option value="Australia">Australia</option>
+                <option value="India">India</option>
+            </select>
+            
+            <div class="checkbox-group">
+                <input type="checkbox" id="terms" required> I agree to Terms and Conditions
+            </div>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div class="container output" id="output"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
