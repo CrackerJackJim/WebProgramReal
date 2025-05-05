@@ -49,7 +49,7 @@ app.get('/', (req, res) => {
       </main>
 
       <footer class="bg-gray-100 text-center text-sm p-4">
-        <p>&copy; ${new Date().getFullYear()} Your Name. All rights reserved.</p>
+        <p>&copy; ${new Date().getFullYear()} Landon Boyd. All rights reserved.</p>
       </footer>
 
     </body>
